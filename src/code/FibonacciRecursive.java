@@ -3,8 +3,18 @@ package code;
 public class FibonacciRecursive {
 	
 	
+	public FibonacciRecursive() {
+		super();
+	}
 	
-	int fibonacci(int n)
+	
+	/**
+	 * 
+	 * @param n, este parámetro es un entero para indicar el orden de la serie fibonacci
+	 * @return
+	 */
+	
+	public int fibonacci(int n)
 	{
 	    if (n>1){
 	       return fibonacci(n-1) + fibonacci(n-2);  //función recursiva
